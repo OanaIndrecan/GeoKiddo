@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GeoKiddo</string>
+    <string name="pagebackground">pagebackground</string>
+    <string name="startbutton">startbutton</string>
+    <string name="hello">Hello!!!</string>
+    <string name="bine_ati_venit_in_geoparcul_dinozaurilor_tara_hategului">Bine ati venit in Geoparcul Dinozaurilor Tara Hategului!</string>
+    <string name="continuebutton">continueButton</string>
+</resources>

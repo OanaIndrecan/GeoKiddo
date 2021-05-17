@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro_background"
+    tools:context=".CasaTraditiilor">
+
+    <TextView
+        android:id="@+id/CasaTraditiilot"
+        android:layout_width="318dp"
+        android:layout_height="209dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/start_button"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="639dp"
+        android:fontFamily="@font/koho_bold"
+        android:gravity="center"
+        android:text="Casa Tradițiilor"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/CasaVTrad1"
+        android:layout_width="180dp"
+        android:layout_height="142dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="477dp"
+        android:src="@drawable/casa_trad3" />
+
+    <ImageView
+        android:id="@+id/CasaTrad2"
+        android:layout_width="186dp"
+        android:layout_height="169dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="464dp"
+        android:src="@drawable/casa_traditiilor2" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="391dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="91dp"
+        android:fontFamily="@font/koho_regular"
+        android:gravity="center"
+        android:text="Este situată în satul Sânpetru, comuna Sântămăria Orlea, în sediul Căminului Cultural.
+Turiștii descoperă aici povestea unei comunități multiculturale.  Români, maghiari, italieni și rromi au știut
+să trăiască în bună vecinătate și să folosească eficient resursele avute la îndemână. Toate exponatele au fost
+donate de comunitatea locală și constau în obiecte ce încearcă să reconstituie viața de zi cu zi din trecut a comunității.
+Tema centrală a expoziției este ”Povestea firului de lână” care aduce în atenție păstoritul, cea mai importantă ocupație de odinioară."
+        android:textColor="@color/darker_start_button"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:id="@+id/StartQuizButton"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/ic_start_quiz_button" />
+
+
+
+</RelativeLayout>

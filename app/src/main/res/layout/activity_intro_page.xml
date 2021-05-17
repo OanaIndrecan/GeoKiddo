@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/intro_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/pg1"
+        android:layout_width="374dp"
+        android:layout_height="161dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="541dp"
+        android:fontFamily="@font/koho_bold"
+        android:gravity="center"
+        android:text="Bine ati venit in Geoparcul Internațional UNESCO Țara Hațegului!"
+        android:textColor="@color/start_button"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="282dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="131dp"
+        android:fontFamily="@font/koho_regular"
+        android:gravity="center"
+        android:text="Aici este locul în care vă invităm la
+ descoperirea unei zone simbol pentru România,
+ Geoparcul Internațional UNESCO Țara Hațegului.
+Este un teritoriu aparte care vă invită să parcurgeți un veritabil
+&quot; Drum prin vremi &quot;, descoperind obiectivele Geoparcului, la final,
+parcurgand un cate un quiz pentru fiecare Casa a Geoparcului.
+"
+        android:textColor="@color/start_button"
+        android:textSize="20sp"
+        android:textStyle="" />
+
+    <ImageView
+        android:layout_width="137dp"
+        android:layout_height="270dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="345dp"
+        android:src="@drawable/logo_geo" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/ic_continue_button__1_"
+        android:id="@+id/continueButton"
+        android:contentDescription="@string/continuebutton" />
+</RelativeLayout>

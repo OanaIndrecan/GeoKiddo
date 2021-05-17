@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro_background"
+    tools:context=".ScoreActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical"
+        android:background="@color/purple"
+        android:paddingBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SCOR"
+            android:textColor="@color/white"
+            android:fontFamily="@font/koho_bold"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:textSize="32sp"
+            />
+
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/scoreActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/koho_bold"
+
+            android:text="5 / 10" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/scoreActivityDone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="80dp"
+        android:textColor="@color/white"
+        android:text="Revino la meniu"
+        android:textStyle="bold"
+        android:background="@drawable/ic_gol"
+        android:backgroundTint="@color/start_button"
+        android:fontFamily="@font/koho_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+<!--    <ImageButton-->
+<!--        android:layout_width="265dp"-->
+<!--        android:layout_height="62dp"-->
+<!--        android:id="@+id/scoreActivityDone"-->
+<!--        android:layout_marginBottom="96dp"-->
+<!--        android:background="@drawable/ic_revino"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

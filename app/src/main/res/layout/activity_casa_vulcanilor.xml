@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro_background"
+    tools:context=".CasaVulcanilor">
+
+    <TextView
+        android:id="@+id/CasaVulcanilor"
+        android:layout_width="318dp"
+        android:layout_height="209dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/start_button"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="639dp"
+        android:fontFamily="@font/koho_bold"
+        android:gravity="center"
+        android:text="Casa Vulcanilor"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/CasaVulcanilorImage"
+        android:layout_width="209dp"
+        android:layout_height="132dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="-4dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="474dp"
+        android:src="@drawable/casa_vulcanilor" />
+
+    <ImageView
+        android:id="@+id/AndiAndezit"
+        android:layout_width="176dp"
+        android:layout_height="154dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="462dp"
+        android:src="@drawable/andi_andezitul" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="391dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="77dp"
+        android:fontFamily="@font/koho_regular"
+        android:gravity="center"
+        android:text="Casa Vulcanilor este o construcție din pământ care spune povestea Pământului/
+Este un loc unde puteți afla lucruri interesante
+despre vulcanii care dominau Insula Hațegului de acum 70 de milioane de ani și ale căror urme se găsesc
+astăzi în comuna Densuș. Construcția este una ecologică din cob, adică pământ galben, paie și apă.
+Mascota Casei Vulcanilor este Andi Andezit, o rocă magmatică, formată prin erupție vulcanică. Reinterpretat,
+se plimbă prin alte arii protejate și geoparcuri internaționale, ca să ducă mai departe povestea."
+        android:textColor="@color/darker_start_button"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:id="@+id/StartQuizButton"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/ic_start_quiz_button" />
+
+
+</RelativeLayout>
